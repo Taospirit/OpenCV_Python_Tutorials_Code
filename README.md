@@ -1,5 +1,5 @@
 # OpenCV_Python_Tutorials_Code
-## OpenCV_python 基础入门资料：
+## OpenCV_Python 基础入门资料：
 [官方原文教程][1]  
 [官方教程中文版][2]
 
