@@ -39,7 +39,6 @@ image_2D_points = np.array(([0, 32.29], [35, 0], [85, 0], [120, 32.29]), dtype=n
 #  |
 #  V
 
-
 class Point:
     def __init__(self, x_param, y_param, num):
         self.x = x_param
