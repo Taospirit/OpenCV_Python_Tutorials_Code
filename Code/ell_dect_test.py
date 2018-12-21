@@ -220,23 +220,8 @@ def locatePoint(p_list, lp_list, radius): # 函数功能：稳定完整的实现
                     swapPoint(lpoint_list, 2, 5)
                 addPoint(lpoint_list, choose_point_list, 2, 2)
                 addPoint(lpoint_list, choose_point_list, 5, 3)
-
-
-
         #------排序完毕------#
 
-
-def drawCenters(p_list, img):
-    for i in range(0, len(p_list)):
-        for j in range(i, len(p_list)):
-            center_x = (p_list[i].x + p_list[j].x)/2
-            center_y = (p_list[i].y + p_list[j].y)/2
-
-            center_x_int = int(np.around(center_x))
-            center_y_int = int(np.around(center_y))
-
-            #cv2.circle(img, (center_x_int, center_y_int), 4, (0, 255, 0), -1)
-            #cv2.imwrite('D:/img/c18.jpg', img)
 
 def distance(list_1, list_2, i, j): # list_1第i个索引点和list_2第j个索引点的距离
     if i > len(list_1) or j > len(list_2):
