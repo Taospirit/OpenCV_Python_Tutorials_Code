@@ -238,9 +238,6 @@ def addPoint(src_list, new_list, i, n): #将src_list中的第i个索引的数据
     p_new = Point(src_list[i].x, src_list[i].y, n)
     new_list.append(p_new)
 
-
-# def main():
-
 cap = cv2.VideoCapture(1)
 
 if (cap.isOpened() == False):
